@@ -1,0 +1,33 @@
+body, h2, p {
+  margin: 0;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: min(90%, 300px);
+}
+.card p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.card h2 {
+  text-align: end;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card button {
+  width: 30px;
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
